@@ -1,0 +1,9 @@
+1. 修复windows启动后，原grub启动失效。不能进入ubuntu
+
+
+2.使用ubuntu U盘或CD,
+启动后，终端
+3.fdisk -l
+发现boot分区：/dev/sda3
+mount /dev/sda3 /mnt
+grub-install --boot-directory=/mnt /dev/sda
