@@ -1,0 +1,5 @@
+/root/.bashrc
+
+
+#delete the words before # in terminal
+export PS1='\$'
